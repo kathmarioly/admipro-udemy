@@ -9,6 +9,10 @@
         "deprecation": {
             "severity": "warn"
         },
+        "variable-name": [
+            true,
+            "allow-leading-underscore"
+        ],
         "import-blacklist": [
             true,
             "rxjs/Rx"
